@@ -1,0 +1,14 @@
+title: Fauzi Halim
+description: Information Technology Graduate | Android & IoT Developer
+url: "https://fauzi0077.github.io"
+
+theme: null
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - node_modules
+  - README.md
