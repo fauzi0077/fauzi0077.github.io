@@ -54,6 +54,14 @@ header p {
   margin-bottom: 20px;
 }
 
+.badge-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
 /* ===== Buttons ===== */
 .btn-group {
   display: flex;
