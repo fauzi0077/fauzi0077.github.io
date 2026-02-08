@@ -30,25 +30,11 @@ header {
   margin-bottom: 80px;
 }
 
-/* Main portfolio title */
-.portfolio-title {
-  font-size: 3.6rem;
-  font-weight: 900;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  margin-bottom: 14px;
-
-  background: linear-gradient(90deg, #ffffff, #bcd4ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* Name title */
-.name-title {
-  font-size: 2.6rem;
+header h1 {
+  font-size: 3rem;
   font-weight: 800;
   letter-spacing: -0.03em;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 header p {
@@ -65,14 +51,6 @@ header p {
   background: rgba(255,255,255,0.08);
   border: 1px solid rgba(255,255,255,0.15);
   font-size: 0.85rem;
-  margin-bottom: 20px;
-}
-
-.badge-row {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -201,13 +179,8 @@ footer {
 
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
-  .portfolio-title {
-    font-size: 2.5rem;
-    letter-spacing: 0.15em;
-  }
-
-  .name-title {
-    font-size: 1.9rem;
+  header h1 {
+    font-size: 2.3rem;
   }
 
   header p {
